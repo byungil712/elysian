@@ -67,7 +67,7 @@ const Event = () => {
             <div className="events_contents">
                <div className="main_event">
                   <div className="img_box">
-                     <img src="/img/event1.png" alt="/" />
+                     <img src="./img/event1.png" alt="/" />
                   </div>
                   <div className="text_box">
                      <div className="category">
@@ -107,7 +107,7 @@ const Event = () => {
                      <SwiperSlide>
                         <div className="event_card">
                            <div className="event_card_img">
-                              <img src="/img/event1.png" alt="/" />
+                              <img src="./img/event1.png" alt="/" />
                            </div>
                            <div className="event_card_text">
                               <span>엘리시안 강촌</span>
