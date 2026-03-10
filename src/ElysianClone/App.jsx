@@ -16,9 +16,9 @@ const App = () => {
    useEffect(() => {
       const getOffset = () => {
          const width = window.innerWidth;
-         if (width >= 1024) return 500;
-         if (width >= 500) return -5500;
-         return 550;
+         if (width >= 1024) return 0;
+         if (width >= 500) return 0;
+         return 0;
       };
 
       AOS.init({
